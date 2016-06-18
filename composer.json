@@ -1,0 +1,32 @@
+{
+    "name": "hivenkay/easylbs",
+    "description": "BaiDu LBSYun SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HivenKay",
+            "email": "hivenkay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "guzzlehttp/guzzle": "~6.1"
+    },
+    "require-dev":{
+      "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyLbs\\": "src/"
+        },
+        "files":[
+            "tests/TestCase.php"
+        ]
+    },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
