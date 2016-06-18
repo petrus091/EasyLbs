@@ -8,6 +8,6 @@
  */
 class TestCase extends PHPUnit_Framework_TestCase
 {
-    protected $ak = '3D9vcjPemRbMGyHFA6s3lXcojYsa14GY';
-    protected $sk = 'LEfpB7u6eGSm9P6YdKwecGVnQbRUK5BS';
+    protected $ak = 'youral';
+    protected $sk = 'yoursk';
 }
