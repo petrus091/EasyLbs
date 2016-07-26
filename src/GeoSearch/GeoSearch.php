@@ -17,7 +17,7 @@ class GeoSearch extends LbsAbstractApi
     const API_LOCAL = '/geosearch/v3/local';
     const API_BOUND = '/geosearch/v3/bound';
     const API_DETAIL = '/geosearch/v3/detail/';
-    const API_PLACE = '/place/v2/suggestion';
+    const API_PLACE = '/place/v2/search';
     private $search_arrtibutes = [
         'geotable_id',
         'q',
