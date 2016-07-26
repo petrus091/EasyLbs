@@ -37,7 +37,7 @@ abstract class GeoCloudAbstractApi extends LbsAbstractApi
      * @param string $name
      * @return mixed
      */
-    public function list($attributes = [])
+    public function getList($attributes = [])
     {
         $this->setAttributeParams($attributes);
         $result = $this->getResult(self::METHOD_GET, self::$API_LIST);
