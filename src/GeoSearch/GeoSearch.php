@@ -17,6 +17,7 @@ class GeoSearch extends LbsAbstractApi
     const API_LOCAL = '/geosearch/v3/local';
     const API_BOUND = '/geosearch/v3/bound';
     const API_DETAIL = '/geosearch/v3/detail/';
+    const API_PLACE = '/place/v2/suggestion/';
     private $search_arrtibutes = [
         'geotable_id',
         'q',
@@ -31,6 +32,7 @@ class GeoSearch extends LbsAbstractApi
         'callback',
         'region',
         'bounds',
+        'output',
     ];
     public function __construct($ak, $sk)
     {
@@ -55,6 +57,12 @@ class GeoSearch extends LbsAbstractApi
     public function searchOfDetail($id,$attributes) {
         $this->setAttributeParams($attributes);
         $res = $this->getResult(self::METHOD_GET,self::API_DETAIL.$id);
+        return $res;
+    }
+
+    public function searchOfPlace($search,$region="成都市",$output="json") {
+        $this->setAttributeParams(['q'=>$search,'region'=>$region,'output'=>$output]);
+        $res = $this->getResult(self::METHOD_GET,self::API_PLACE);
         return $res;
     }
 }
