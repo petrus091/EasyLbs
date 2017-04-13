@@ -1,5 +1,5 @@
 # EasyLbs
-百度云地图LBS SDK
+Laravel 百度云地图LBS SDK
 使用前请先阅读百度云LBS服务云文档，本SDK不再对请求参数以及响应作解释
 ---
 # 云存储
