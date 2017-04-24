@@ -3,7 +3,7 @@
 使用前请先阅读百度云LBS服务云文档，本SDK不再对请求参数以及响应作解释
 ---
 # Laravel 使用说明
-Laravel5 服务提供的使用请移步[Laravel-EasyLbs]（https://github.com/HivenKay/Laravel-EasyLbs）
+Laravel5 服务提供的使用请移步[Laravel-EasyLbs](https://github.com/HivenKay/Laravel-EasyLbs)
 # 云存储
 
 ## 方法列表：
